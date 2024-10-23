@@ -42,7 +42,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #d46e3b;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -79,7 +79,21 @@ button:focus-visible {
   color: white;
   margin-left: 20px;
 }
+.add-button:disabled {
+  background-color: gray;
+}
 .input-wrapper {
   display: flex;
   align-items: center;
+}
+.todo-item-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px ;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+.line-through{
+  text-decoration: line-through;
 }

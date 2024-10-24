@@ -97,3 +97,7 @@ button:focus-visible {
 .line-through{
   text-decoration: line-through;
 }
+.edit-button{
+  margin-left: 10px;
+  margin-right: 10px;
+}
